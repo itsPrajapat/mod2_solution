@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 992px)  {
+
+    h1 {
+        text-align:center;
+        margin-top: 23px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cont-1, .cont-2, .cont-3{
+        border: 2px solid black;
+        padding: 5px 10px;
+        margin: 50px 10px;
+        background-color: azure;
+    }
+    
+     h2{
+        background-color: blanchedalmond;
+        text-align: right;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+    h1 {
+        text-align:center;
+        margin-top: 23px;
+    }
+    
+   
+    
+    .cont-1{
+        width: 50%;
+    float: left;
+    padding: 5px, 10px;
+    border: 2px solid black;
+    background-color: azure;
+    
+        
+    }
+    .cont-2{
+        width: 50%;
+    float: right;
+    padding: 5px, 10px;
+    border: 2px solid black;
+    background-color: azure;
+    
+    }
+     .cont-3{
+        width: 100%;
+        padding: 5px, 10px;
+        border: 2px solid black;
+        background-color: azure;
+    }
+    
+     h2{
+        background-color: blanchedalmond;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 767px)  {
+
+    h1 {
+        text-align:center;
+        margin-top: 23px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cont-1, .cont-2, .cont-3{
+        border: 2px solid black;
+        padding: 5px 10px;
+        margin: 50px 10px;
+        background-color: azure;
+    }
+    
+     h2{
+        background-color: blanchedalmond;
+        text-align: right;
+    }
+}
